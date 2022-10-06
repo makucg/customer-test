@@ -1,0 +1,26 @@
+{
+  "customerTestApp": {
+    "language": {
+      "home": {
+        "title": "Languages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Language",
+        "createOrEditLabel": "Crear ou editar Language",
+        "notFound": "No Languages found"
+      },
+      "created": "Un novo Language foi creado co identificador {{ param }}",
+      "updated": "Un Language foi actualizado co identificador {{ param }}",
+      "deleted": "Un Language foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Language {{ id }}?"
+      },
+      "detail": {
+        "title": "Language"
+      },
+      "id": "ID",
+      "languageName": "Language Name",
+      "languageCode": "Language Code",
+      "customer": "Customer"
+    }
+  }
+}

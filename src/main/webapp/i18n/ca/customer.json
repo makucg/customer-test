@@ -1,0 +1,63 @@
+{
+  "customerTestApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Customer",
+        "createOrEditLabel": "Create or edit a Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "A new Customer is created with identifier {{ param }}",
+      "updated": "A Customer is updated with identifier {{ param }}",
+      "deleted": "A Customer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "name": "Name",
+      "lastName": "Last Name",
+      "cif": "Cif",
+      "direction": "Direction",
+      "municipality": "Municipality",
+      "pc": "Pc",
+      "telephoneNumber": "Telephone Number",
+      "email": "Email",
+      "privacyUrl": "Privacy Url",
+      "cancelUrl": "Cancel Url",
+      "enterprise": "Enterprise",
+      "registryCode": "Registry Code",
+      "mainRoomName": "Main Room Name",
+      "subdomain": "Subdomain",
+      "menuTpv": "Menu Tpv",
+      "menuClientes": "Menu Clientes",
+      "menuIntegraciones": "Menu Integraciones",
+      "menuSalas": "Menu Salas",
+      "menuPerfil": "Menu Perfil",
+      "menuAyuda": "Menu Ayuda",
+      "menuTaquilla": "Menu Taquilla",
+      "menuAbonos": "Menu Abonos",
+      "menuICAA": "Menu ICAA",
+      "disclaimers": "Disclaimers",
+      "reglas": "Reglas",
+      "usuarios": "Usuarios",
+      "cupones": "Cupones",
+      "ventaCruzada": "Venta Cruzada",
+      "packs": "Packs",
+      "menuTiposEvento": "Menu Tipos Evento",
+      "menuPlantillasPrecios": "Menu Plantillas Precios",
+      "menuPlantillasReserva": "Menu Plantillas Reserva",
+      "menuTarifas": "Menu Tarifas",
+      "menuComprasReservas": "Menu Compras Reservas",
+      "menuInformes": "Menu Informes",
+      "menuInformesSesion": "Menu Informes Sesion",
+      "thirdParty": "Third Party",
+      "menuAforoPorDias": "Menu Aforo Por Dias",
+      "status": "Status",
+      "language": "Language"
+    }
+  }
+}
