@@ -1,0 +1,11 @@
+{
+  "customerTestApp": {
+    "Status": {
+      "null": "",
+      "CREATED": "CREATED",
+      "EDITED": "EDITED",
+      "DONE": "DONE",
+      "WAITING": "WAITING"
+    }
+  }
+}
