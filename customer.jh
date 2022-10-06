@@ -1,0 +1,68 @@
+
+entity Language {
+	languageName String required,
+    languageCode String required
+}
+
+entity Customer {
+	name String required,
+    lastName String required,
+    cif String required,
+    direction String required,
+    municipality String required,
+    pc String required,
+    telephoneNumber String required,
+    email String required,
+    privacyUrl String required,
+    cancelUrl String required,
+    enterprise String required,
+    registryCode String required,
+    mainRoomName String required,
+    subdomain String required,
+    menuTpv String required,
+    menuClientes String required,
+    menuIntegraciones String required,
+    menuSalas String required,
+    menuPerfil String required,
+    menuAyuda String required,
+    menuTaquilla String required,
+    menuAbonos String required,
+    menuICAA String required,
+    disclaimers String required,
+    reglas String required,
+    usuarios String required,
+    cupones String required,
+    ventaCruzada String required,
+    packs String required,
+    menuTiposEvento String required,
+    menuPlantillasPrecios String required,
+    menuPlantillasReserva String required,
+    menuTarifas String required,
+    menuComprasReservas String required,
+    menuInformes String required,
+    menuInformesSesion String required,
+    thirdParty String required,
+    menuAforoPorDias String required,
+    status Status required
+}
+
+enum Status {
+    CREATED, EDITED, DONE, WAITING
+}
+
+relationship OneToMany {
+	Customer to Language{customer},
+}
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+paginate Customer with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
